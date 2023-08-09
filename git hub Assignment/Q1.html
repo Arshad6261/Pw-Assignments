@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: rgba(244, 237, 237, 0.557);
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width:35vw ;
+            border: none;
+            border-radius: 5px;
+            gap: 5px;
+           height:50vh;
+           text-align: center;
+           transform: translate(32.5vw,25vh) ;
+           
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 1px rgba(0, 0, 0, 0.48) solid;
+            width: 90%;
+            margin-left: 12px;
+            margin-bottom:10px ;
+            height: 15%;
+        }
+        button {
+            width: 90%;
+            margin-left: 12px;
+            margin-top: 20px;
+            height: 10%;
+            background-color: rgb(51, 109, 224);
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+        input:focus {
+            outline: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="password">
+        <button>Submit</button>
+    </div>
+</body>
+</html>
