@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Broker</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header>
+        <!-- Nav Bar -->
+        <nav class="flex justify-between bg-black items-center p-3 sm:h-[100px] h-[80px] w-full">
+            <!-- Logo -->
+            <img class="md:w-[100px] w-[80px] sm:w-[100px]" src="/advance-tailwind-assignment/Media/liquid.png" alt="">
+            <!-- Create account button and profile pic -->
+            <div class="flex gap-4 items-center">
+                <button class="hidden sm:flex h-[40px] justify-center p-2 text-white bg-orange-600 rounded-md font-semibold">CREATE ACCOUNT</button>
+                <img class="hidden sm:inline-block w-[70px] h-[60px] rounded-[50%]" src="/advance-tailwind-assignment/Media/profile.webp" alt="">
+                <img class="sm:hidden bg-black w-[60px]" src="/advance-tailwind-assignment/Media/menu-bar.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content-->
+    <main>
+        <!-- Hero Section -->
+        <section class="flex flex-col flex-wrap bg-black text-white gap-8  sm:flex-row sm:justify-around p-8">
+            <div class="flex flex-col gap-6 sm:justify-center sm:w-1/2 md:items-start ">
+                <h1 class="text-4xl  md:text-6xl sm:text-left sm:text-5xl">Multi-regulated global broker </h1>
+                <p >A trusted destination for traders worldwide,<br>Authorised by FCA ASIC & FSCA</p>
+                <button class="border border-orange-500 rounded-sm p-3 animate-bounce">DISCOVER ACCOUNTS</button>
+            </div>
+            <img class="sm:w-[32%]" src="/advance-tailwind-assignment/Media/liquid-2.svg" alt="">
+        </section>
+
+        <!-- Statistical Information -->
+        <section class="flex flex-col flex-wrap justify-center items-center gap-5 bg-black sm:flex-row sm:justify-evenly p-8 pt-24">
+            <!-- Alphabet -->
+            <div class="flex gap-4 items-center">
+               <img class="w-[100px] h-[40px]" src="/advance-tailwind-assignment/Media/alphabet.png" alt="">
+               <div class="p-3 bg-green-500 rounded-md text-black font-semibold">^1,740.05</div>
+            </div>
+            <!-- Microsoft -->
+            <div class="flex gap-4 items-center">
+               <img class="w-[100px] h-[40px]" src="/advance-tailwind-assignment/Media/microsoft.png" alt="">
+               <div class="p-3 bg-green-500 rounded-md text-black font-semibold">^1,740.05</div>
+            </div>
+            <!-- Facebook -->
+            <div class="flex gap-4 items-center">
+               <img class="w-[100px] h-[40px]" src="/advance-tailwind-assignment/Media/facebook.png" alt="">
+               <div class="p-3 bg-red-400 rounded-md text-black font-semibold">^1,740.05</div>
+            </div>
+            <!-- Amazon -->
+            <div class="flex gap-4 items-center">
+               <img class="w-[100px] h-[35px]" src="/advance-tailwind-assignment/Media/amazon.png" alt="">
+               <div class="p-3 bg-green-500 rounded-md text-black font-semibold">^1,740.05</div>
+            </div>
+            <!-- Tesla -->
+            <div class="flex gap-4 items-center">
+               <img class="w-[100px] h-[40px]" src="/advance-tailwind-assignment/Media/tesla.png" alt="">
+               <div class="p-3 bg-red-400 rounded-md text-black font-semibold">^1,740.05</div>
+            </div>
+        </section>
+
+        <!-- blog cards -->
+        <section class="bg-black text-white p-6 ">
+            <div class="flex flex-wrap sm:justify-between gap-4 p-4">
+                <h1 class="text-3xl ">Save time. <span class="text-orange-600">Get higher return.</span> <br>Multiply wealth.</h1>
+                <button class="border border-orange-600 rounded-md px-2 py-0">FIND OUT MORE > </button>
+            </div>
+            <div class="flex flex-col justify-center md:flex-row justify-around flex-wrap my-3">
+               <div class="w-[95%] md:w-[25%] rounded-md  bg-[#534d4d33] p-4" class="flex flex-col justify-center items-center">
+                <img class="w-[60%]" src="/advance-tailwind-assignment/Media/assets.svg" alt="">
+                <h1 class="text-3xl">Various assets</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ducimus iste sint perspiciatis reprehenderit vitae omnis, itaque earum nam at!</p>
+               </div> 
+               <div class="w-[95%] md:w-[25%] rounded-md  bg-[#534d4d33] p-4" class="flex flex-col justify-center items-center">
+                <img class="w-[60%]" src="/advance-tailwind-assignment/Media/analysis.svg" alt="">
+                <h1 class="text-3xl">Market Analysis</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ducimus iste sint perspiciatis reprehenderit vitae omnis, itaque earum nam at!</p>
+               </div> 
+               <div class="w-[95%] md:w-[25%] rounded-md  bg-[#534d4d33] p-4" class="flex flex-col justify-center items-center">
+                <img class="w-[60%]" src="/advance-tailwind-assignment/Media/tool.svg" alt="">
+                <h1 class="text-3xl">Enhanced Tool</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ducimus iste sint perspiciatis reprehenderit vitae omnis, itaque earum nam at!</p>
+               </div> 
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="flex flex-col gap-8 justify-center p-5 sm:flex-row flex-wrap sm:justify-around ">
+            <div class="flex items-start  gap-4 sm:w-[40%]">
+                <img class=" w-24" src="/advance-tailwind-assignment/Media/expert.avif" alt="">
+                <div class="space-y-2">
+                   <h1 class="text-2xl font-semibold">Expert service</h1>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis cumque odio quod architecto iure fugiat, expedita blanditiis earum autem!</p>
+                   <h2 class="">LEARN MORE -- ></h2>
+                </div>
+            </div>
+            <div class="flex items-start  gap-4 sm:w-[40%]">
+                <img class=" w-24" src="/advance-tailwind-assignment/Media/hammer.jpg" alt="">
+                <div class="space-y-2">
+                   <h1 class="text-2xl font-semibold">Fully regulated</h1>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis cumque odio quod architecto iure fugiat, expedita blanditiis earum autem!</p>
+                   <h2 class="">LEARN MORE -- ></h2>
+                </div>
+            </div>
+            <div class="flex items-start  gap-4 sm:w-[40%]">
+                <img class=" w-24 rounded-[50%]" src="/advance-tailwind-assignment/Media/growth.jpg" alt="">
+                <div class="space-y-2">
+                   <h1 class="text-2xl font-semibold">Financial strength</h1>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis cumque odio quod architecto iure fugiat, expedita blanditiis earum autem!</p>
+                   <h2 class="">LEARN MORE -- ></h2>
+                </div>
+            </div>
+            <div class="flex  items-start gap-4 sm:w-[40%]">
+                <img class=" w-24" src="/advance-tailwind-assignment/Media/support.webp" alt="">
+                <div class="space-y-2">
+                   <h1 class="text-2xl font-semibold">Integrated support</h1>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis cumque odio quod architecto iure fugiat, expedita blanditiis earum autem!</p>
+                   <h2 class="">LEARN MORE -- ></h2>
+                </div>
+            </div>
+        </section>
+        
+       <!-- Steps to get started -->
+       <section class="border rounded-md border-orange-500 w-[95%] p-2 m-4 flex flex-col sm:flex-row justify-center items-center  border-solid border-2 my-8 relative z-10">
+           <div class="py-6 sm:w-[32%] flex flex-col gap-2 items-center">
+            <div class="border rounded-[50%] border-orange-500 text-orange-500 w-12 h-12 border-solid flex justify-center items-center border-2 animate-pulse">1</div>
+            <h3 >Register account</h3>
+           </div>
+           <div class="py-6 sm:w-[32%] flex flex-col gap-2 items-center">
+            <div class="border rounded-[50%] border-orange-500 text-orange-500 w-12 h-12 border-solid flex justify-center items-center border-2 animate-pulse">2</div>
+            <h3>Fund your account</h3>
+           </div>
+           <div class="py-6 sm:w-[32%] flex flex-col gap-2 items-center">
+            <div class="border rounded-[50%] border-orange-500 text-orange-500 w-12 h-12 border-solid flex justify-center items-center border-2 animate-pulse">3</div>
+            <h3>Start your trade</h3>
+           </div>
+           <div class="text-orange-500  absolute bottom-[97%]  px-4 z-20 text-xl bg-white">Simple steps to start trade.</div>
+       </section>
+
+       <!-- News Section -->
+       <section>
+        <h1 class="text-4xl font-semibold">Stay ahead of the curve.</h1>
+        <div class="flex flex-col sm:flex-row sm:justify-around p-4 m-4">
+            <div class="p-4 m-2 space-y-2 border-l-2 border-l-orange-500 z-10 relative">
+                <h1 class="text-3xl">Wall Street cautious on 'frothy' stocks, warn bitcoin bubble</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio similique, ut voluptatem recusandae neque?</p>
+                <h3 class="font-semibold">Read More -></h3>
+                <div class="absolute rotate-90 text-orange-500 z-20 px-2 right-[93.5%] top-0 bg-white font-semibold">NEWS</div>
+            </div>
+            <div class="p-4 m-2 space-y-2 border-l-2 border-l-orange-500 z-10 relative">
+                <h1 class="text-3xl">Will AUD/USD Hit 0.8000 In The Foreseeable Future?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio similique, ut voluptatem recusandae neque?</p>
+                <h3 class="font-semibold">Read More -></h3>
+                <div class="absolute rotate-90 text-orange-500 z-20 px-2 right-[93.5%] top-0 bg-white font-semibold">NEWS</div>
+            </div>
+            <div class="p-4 m-2 space-y-2 border-l-2 border-l-orange-500 z-10 relative">
+                <h1 class="text-3xl">How Can You Use Volatility to Your Advantage</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio similique, ut voluptatem recusandae neque?</p>
+                <h3 class="font-semibold">Read More -></h3>
+                <div class="absolute rotate-90 text-orange-500 z-20 px-2 right-[93.5%] top-0 bg-white font-semibold">NEWS</div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Footer -->
+       <footer class="bg-black p-8 m-2 flex flex-col sm:flex-row justify-between  gap-4 items-start w-full">
+        <img width="90px" src="/advance-tailwind-assignment/Media/liquid.png" alt="Logo">
+        <div class="flex flex-col sm:flex-row  gap-12 items-start justify-around p-4 m-4">
+            <div>
+                <h1 class="text-lg text-white">MARKETS</h1>
+                <ul class="text-white text-xs text-gray-400 space-y-4 mt-4">
+                    <li>Web Platform</li>
+                    <li>Trading Apps</li>
+                    <li>Meta Trader 5</li>
+                    <li>Compare Features</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-lg text-white">ACCOUNT TYPES</h1>
+                <ul class="text-white text-xs text-gray-400 space-y-4 mt-4">
+                    <li>Demo account</li>
+                    <li>Standard account</li>
+                    <li>ECN account</li>
+                    <li>Islamic account</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-lg text-white">LEARN TO TRADE</h1>
+                <ul class="text-white text-xs text-gray-400 space-y-4 mt-4">
+                    <li>News and trade ideas</li>
+                    <li>Trading strategy</li>
+                    <li>Forex trading course</li>
+                </ul>
+            </div>
+        </div>
+       </footer>
+    </main>
+</body>
+</html>
